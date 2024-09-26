@@ -1,0 +1,133 @@
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.4); /* Fundo semi-transparente */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000; /* Certificar que o modal fica acima do conteúdo */
+}
+
+/* Estilo para o conteúdo do modal */
+.modal {
+  background: #fff;
+  padding: 2rem;
+  width: 100%;
+  max-width: 500px; /* Limita o tamanho máximo */
+  border-radius: 10px; /* Bordas arredondadas */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  display: flex;
+  flex-direction: column;
+  gap: 1rem; /* Espaço entre os elementos */
+  position: relative;
+  max-height: 90vh; /* Limita a altura do modal a 90% da tela */
+  overflow-y: auto; /* Permite rolar verticalmente */
+
+}
+
+/* Estilo para os títulos */
+.modal h2 {
+  margin: 0;
+  font-size: 1.5rem;
+  color: #333;
+  text-align: center;
+}
+
+/* Estilo para os rótulos (labels) */
+.modal label {
+  font-size: 0.9rem;
+  color: #555;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0.5rem;
+}
+
+/* Estilo para os campos de texto */
+.modal input[type="text"],
+.modal input[type="number"],
+.modal textarea {
+  padding: 0.75rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 0.9rem;
+  width: 90%;
+  margin-top: 0.25rem;
+  transition: border 0.3s;
+}
+
+.modal input[type="text"]:focus,
+.modal input[type="number"]:focus,
+.modal textarea:focus {
+  border-color: #007bff; /* Cor de foco moderna */
+  outline: none;
+}
+
+/* Estilo para o botão de ação */
+.modal button {
+  padding: 0.75rem;
+  border: none;
+  border-radius: 5px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.modal button[type="submit"] {
+  background-color: #007bff; /* Cor principal */
+  color: #fff;
+}
+
+.modal button[type="submit"]:hover {
+  background-color: #0056b3; /* Efeito de hover */
+}
+
+.modal button[type="button"] {
+  background-color: #ccc; /* Cor de cancelamento */
+  color: #333;
+}
+
+.modal button[type="button"]:hover {
+  background-color: #999;
+}
+
+/* Estilo para o campo de descrição (textarea) */
+.modal textarea {
+  resize: none; /* Desativa o redimensionamento */
+  height: 80px;
+}
+
+/* Estilo para o formulário */
+.modal form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.modal-content {
+  padding: 20px;
+}
+ 
+.modal fieldset {
+  width: 90%;
+  border-radius: 5px;
+  border: 1px solid #a6a5a5;
+}
+
+.new-hotel-btn {
+    
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    background-color: white;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    padding: 11px;
+    white-space: nowrap;
+    width: fit-content;
+}
+.new-hotel-btn:hover {
+  background-color:#1469bf;
+  color: white;
+}

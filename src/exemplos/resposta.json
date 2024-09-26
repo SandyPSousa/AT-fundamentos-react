@@ -1,0 +1,57 @@
+[
+  {
+    "id": 1234567,
+    "nome": "Hotel1",
+    "imagem": "arquivo ou url",
+    "classificacao": 5,
+    "cidade": "cidade",
+    "estado": "estado",
+    "preco": "precoDaDiaria",
+    "detalhes": {
+      "descricao": "asda",
+      "imagens": [
+        "arquivo ou url",
+        "arquivo ou url",
+        "arquivo ou url",
+        "arquivo ou url"
+      ],
+      "servicos": [
+        {
+          "nome": "limpeza",
+          "descricao": "auhsduasd"
+        },
+        {
+          "nome": "café da manhã",
+          "descricao": "auhsduasd"
+        }
+      ]
+    }
+  },
+  {
+    "nome": "Hotel2",
+    "imagem": "arquivo ou url",
+    "classificacao": 5,
+    "cidade": "cidade",
+    "estado": "estado",
+    "preco": "precoDaDiaria",
+    "detalhes": {
+      "descricao": "asda",
+      "imagens": [
+        "arquivo ou url",
+        "arquivo ou url",
+        "arquivo ou url",
+        "arquivo ou url"
+      ],
+      "servicos": [
+        {
+          "nome": "limpeza",
+          "descricao": "auhsduasd"
+        },
+        {
+          "nome": "café da manhã",
+          "descricao": "auhsduasd"
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,159 @@
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  /* font-family: Arial, Helvetica, sans-serif; */
+}
+
+.hotel-info-div {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.images-div {
+  display: flex;
+  flex-direction: column;
+}
+
+.main-image {
+  width: 500px;
+  height: 300px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.extra-images-div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.extra-images {
+  width: 120px;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+
+.text-info {
+  flex: 1;
+  
+}
+
+.text-info p {
+  margin: 10px 0;
+}
+
+.hotel-details h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  padding: 10px;
+  margin: 10px;
+}
+
+.hotel-info p {
+  margin: 5px 0;
+}
+
+.back-btn {
+  color: #1469bf;
+  border-radius: 10px;
+  border: none;
+  padding: 10px;
+  margin-top: 10px;
+  margin-left: 10px;
+  background-color: white;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  white-space: nowrap;
+  width: fit-content;
+  font-size: 14px;
+}
+
+.back-btn:hover {
+  background-color: #1469bf;
+  color: white;
+}
+
+.text-info .services {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  
+}
+
+.services .services-h2 {
+  font-size: 1em;
+  padding: 0px;
+  margin: 0px;
+}
+.services ul {
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+.services li {
+  margin: 5px 0;
+  padding: 10px;
+  background: #146abf3d;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.hotel-details h1 {
+  font-family: "Concert One", sans-serif;
+  font-weight: 400;
+  color: #ffffff;
+  padding: 10px;
+}
+
+.hotel-details p {
+  color: #333;
+}
+
+
+.hotel-details .btn-div {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  margin: 15px;
+}
+
+.text-info .price-text {
+  font-weight: bold;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.text-info .price-text strong {
+  color: rgb(94, 131, 38);
+  font-size: 1.5em;
+}
+
+
+.footer {
+  background-color: #1469bf;
+  padding: 20px;
+  border-top: 2px solid #ddd;
+  text-align: center;
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer p {
+  margin: 10px 0;
+  font-size: 16px;
+  color: white;
+}
