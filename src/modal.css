@@ -5,31 +5,30 @@
   left: 0;
   width: 100vw;
   height: 100vh;
-  background: rgba(0, 0, 0, 0.4); /* Fundo semi-transparente */
+  background: rgba(0, 0, 0, 0.4); 
   display: flex;
   justify-content: center;
   align-items: center;
-  z-index: 1000; /* Certificar que o modal fica acima do conteúdo */
+  z-index: 1000; 
 }
 
-/* Estilo para o conteúdo do modal */
+
 .modal {
   background: #fff;
   padding: 2rem;
   width: 100%;
-  max-width: 500px; /* Limita o tamanho máximo */
-  border-radius: 10px; /* Bordas arredondadas */
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  max-width: 500px; 
+  border-radius: 10px; 
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); 
   display: flex;
   flex-direction: column;
-  gap: 1rem; /* Espaço entre os elementos */
+  gap: 1rem; 
   position: relative;
-  max-height: 90vh; /* Limita a altura do modal a 90% da tela */
-  overflow-y: auto; /* Permite rolar verticalmente */
+  max-height: 90vh; 
+  overflow-y: auto; 
 
 }
 
-/* Estilo para os títulos */
 .modal h2 {
   margin: 0;
   font-size: 1.5rem;
@@ -37,7 +36,6 @@
   text-align: center;
 }
 
-/* Estilo para os rótulos (labels) */
 .modal label {
   font-size: 0.9rem;
   color: #555;
@@ -46,7 +44,6 @@
   margin-bottom: 0.5rem;
 }
 
-/* Estilo para os campos de texto */
 .modal input[type="text"],
 .modal input[type="number"],
 .modal textarea {
@@ -62,11 +59,11 @@
 .modal input[type="text"]:focus,
 .modal input[type="number"]:focus,
 .modal textarea:focus {
-  border-color: #007bff; /* Cor de foco moderna */
+  border-color: #007bff; 
   outline: none;
 }
 
-/* Estilo para o botão de ação */
+
 .modal button {
   padding: 0.75rem;
   border: none;
@@ -77,16 +74,16 @@
 }
 
 .modal button[type="submit"] {
-  background-color: #007bff; /* Cor principal */
+  background-color: #007bff;
   color: #fff;
 }
 
 .modal button[type="submit"]:hover {
-  background-color: #0056b3; /* Efeito de hover */
+  background-color: #0056b3; 
 }
 
 .modal button[type="button"] {
-  background-color: #ccc; /* Cor de cancelamento */
+  background-color: #ccc; 
   color: #333;
 }
 
@@ -94,13 +91,11 @@
   background-color: #999;
 }
 
-/* Estilo para o campo de descrição (textarea) */
 .modal textarea {
-  resize: none; /* Desativa o redimensionamento */
+  resize: none; 
   height: 80px;
 }
 
-/* Estilo para o formulário */
 .modal form {
   display: flex;
   flex-direction: column;
