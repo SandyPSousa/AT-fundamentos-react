@@ -210,7 +210,7 @@ const Modal = ({ show, onClose, onSubmit }) => {
   );
 };
 
-const Formulario = () => {
+const Formulario = ({ triggerRender }) => {
   const [showModal, setShowModal] = useState(false);
   const [hotels, setHotels] = useState([]);
 
@@ -311,6 +311,8 @@ const Formulario = () => {
 
   const handleAddHotel = (newHotel) => {
     setHotels((prevHotels) => [...prevHotels, newHotel]);
+    triggerRender((state) => state + 1);
+    alert("Hotel adicionado com sucesso.")
   };
 
   return (

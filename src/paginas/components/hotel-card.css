@@ -115,6 +115,13 @@
 color: rgb(96, 149, 17);
 font-size: 1.5em;
 align-items: center;
-
-
 }
+
+body.dark-theme .hotel-card {
+  background-color: #474646;
+  color: white;
+}
+body.dark-theme .hotel-card p {
+  color: white;
+}
+/* body.dark-theme .hotel-card  */

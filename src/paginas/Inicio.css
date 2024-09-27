@@ -140,4 +140,38 @@
   padding: 10px;
 }
 
+/* Tema Escuro */
+body.dark-theme {
+  background-color: #343a40;
+  color: #ffffff;
+}
+body.dark-theme button {
+  background-color: #495057;
+  color: white;
+}
 
+body.dark-theme .navbar {
+  background-color: #1469bf;
+  color: #ffffff;
+}
+
+body.dark-theme .site-title {
+  color: #ffffff;
+}
+
+body.dark-theme .search-bar {
+  color: white;
+}
+
+body.dark-theme .search-bar,
+body.dark-theme .favorites-btn,
+body.dark-theme .sort-select {
+  background-color: #495057;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+}
+
+body.dark-theme .footer {
+  background-color: #1469bf;
+  color: #ffffff;
+}
