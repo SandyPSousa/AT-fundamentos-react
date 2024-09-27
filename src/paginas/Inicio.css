@@ -140,6 +140,23 @@
   padding: 10px;
 }
 
+.theme-toggle {
+  color: #1469bf;
+  border-radius: 10px;
+  border: none;
+  background-color: white;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  padding: 10px;
+  white-space: nowrap;
+  width: fit-content;
+  font-size: 10px;
+}
+.theme-toggle:hover{
+  background-color: #1469bf;
+  color: white;
+}
+
 /* Tema Escuro */
 body.dark-theme {
   background-color: #343a40;
